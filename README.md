@@ -1,2 +1,2 @@
-# microservice-spring-cloud-config
-Spring cloud configuration
+# microservice-spring-cloud-eureka
+Spring cloud eureka
