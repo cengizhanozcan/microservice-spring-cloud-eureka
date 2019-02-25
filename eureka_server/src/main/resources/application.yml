@@ -4,6 +4,14 @@ spring:
   application:
     name: eureka-server-tutorial
 eureka:
-  client:
-    registerWithEureka: false
-    fetchRegistry: false
+  instance:
+    lease-expiration-duration-in-seconds: 3
+  server:
+    enable-self-preservation: false
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:8010/eureka/
+    healthcheck:
+      enabled: true

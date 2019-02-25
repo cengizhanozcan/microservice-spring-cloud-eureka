@@ -13,6 +13,6 @@ public class AddressController {
 
     @RequestMapping("/default")
     public @ResponseBody String getDefaultAdress() {
-        return "Bolu";
+        return "Ankara";
     }
 }
